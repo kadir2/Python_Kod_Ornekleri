@@ -1,0 +1,26 @@
+{
+    "api_key": "12345",
+    "timeout": 30,
+    "max_retries": 3,
+    "endpoints": [
+        {
+            "url": "http://example.com/api/v1",
+            "method": "GET",
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        },
+        {
+            "url": "http://example.com/api/v2",
+            "method": "POST",
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        }
+    ],
+    "data": {
+        "name": "John Doe",
+        "email": "clkdnsclln@hotmail.com"
+
+}
+}
